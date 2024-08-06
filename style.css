@@ -1,0 +1,75 @@
+
+
+input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+}
+
+button {
+    background-color: #63686d;
+    color: #fff;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#profile {
+    display: none;
+    text-align: center;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+#name {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#bio {
+    font-size: 1em;
+    color: #666;
+}
+
+#repositories {
+    list-style-type: none;
+    padding: 0;
+}
+
+#repositories li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+#repositories a {
+    color: #154c86;
+    text-decoration: none;
+}
+
+#repositories a:hover {
+    text-decoration: underline;
+}

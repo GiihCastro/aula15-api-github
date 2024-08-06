@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Perfil GitHub</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Buscar Perfil GitHub</h1>
+        <form id="github-form">
+            <label for="username">Nome de Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            <button type="submit">Buscar</button>
+        </form>
+
+        <div id="profile" class="hidden">
+            <div class="profile-info">
+                <img id="avatar" alt="Avatar do GitHub">
+                <div>
+                    <h2 id="name"></h2>
+                    <p id="bio"></p>
+                </div>
+            </div>
+
+            <h3>Repositórios:</h3>
+            <ul id="repositories"></ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
